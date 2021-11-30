@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="./05-my-js.js"></script>
+
+    <script>
+        document.write("This is internal JavaScript.")
+        function fun() {
+            document.write("fun output by internal JS.");
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Using JavaScript in HTML</h1>
+
+    <!--Inline JS-->
+    <p>Inline JS</p>
+    <a href="https://www.google.co.in/">Please click here</a>
+    <a href="#" onclick="document.write('Link clicked.');">Please click here</a>
+
+    <!--Internal Js-->
+    <p>Internal JS</p>
+    <a href='#' onclick="fun();">Please click here</a>
+    <!--External JS-->
+    <p>External JS</p>
+    <a href="#" onclick="anotherFun();">Please click here</a>
+
+
+
+</body>
+
+</html>
