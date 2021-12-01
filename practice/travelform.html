@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <div>
+        <h1>Plan your travel</h1>
+    </div>
+    <hr />
+    <div>
+        <label>Name<input type="text" name="Name" value="Enter your name" required /></label>
+    </div>
+    <div>
+        <label for="Source">Source</label>
+        <select id="Source" name="Source" required>
+            <option value="1">New Delhi</option>
+            <option selected value="2">Banglore</option>
+            <option value="3">Mumbai</option>
+            <option value="4">Chennai</option>
+
+        </select>
+    </div>
+    <div>
+        <label for="Destination">Destination</label required>
+        <select id="Destination" name="Destination">
+            <option value="1">New Delhi</option>
+            <option selected value="2">Banglore</option>
+            <option value="3">Mumbai</option>
+            <option value="4">Chennai</option>
+
+        </select>
+    </div>
+    <div>
+        <label for="Date of Journey">Date Of Journey</label>
+        <input type="date" id="Date of Journey" name="Date-of-Journey" min="2021-11-02" max="2021-11-31" required />
+    </div>
+    <div>
+        <label for="Date of Return Journey">Date Of Return Journey</label>
+        <input type="date" id="Date of Return Journey" name="Date-of-Return-Journey" min="2021-11-02" max="2021-11-31"
+            required />
+    </div>
+    <div>
+        <label for="Number Of Seats">Number Of Seats</label>
+        <input type="number" id="Number Of Seats" name="Number Of Seats" value="1" min="1" max="10" required />
+    </div>
+    <div>
+        <input type="reset" value="Reset" />
+        <input type="button" value="Check for availability" />
+    </div>
+</body>
+
+</html>
