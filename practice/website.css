@@ -1,0 +1,21 @@
+
+   a{
+       padding:5px;
+       border:1px solid red;
+   }
+   a{
+        color:crimson;
+    }
+    a:hover{
+        color:cyan;
+    }
+    p:first-letter{
+        font-size:2em;
+    }
+    p:first-letter{
+        color:crimson;
+    }
+    
+    .circle-bullets{
+        list-style-type: circle;
+    }
